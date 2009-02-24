@@ -1,0 +1,6 @@
+h1. How to Setup the Background Jobs needed for this TSApp
+
+h2. Database Backups
+
+Run the Rake Task at 1AM
+0 1 * * * cd /var/www/apps/wysiwyg-area/current; RAILS_ENV=production rake backup >> /var/www/apps/wysiwyg-area/shared/log/backup.log

@@ -1,0 +1,8 @@
+<% stylesheets 'wysiwyg-area-edit' %>
+<% javascripts 'tiny_mce/tiny_mce_src', 'wysiwyg-area' %>
+
+<div class="content">
+<% fields_for_page_object do |f| %>
+  <%= f.text_area :content, :class => "wysiwyg-area-tinymce", :id => "app-wysiwyg-area-#{@page_object.urn}" %>
+<% end %>
+</div>

@@ -1,0 +1,6 @@
+<% stylesheets 'wysiwyg-area' %>
+<% # javascripts 'prototype', 'effects', 'dragdrop', 'assets' -%>
+
+<div class="content<%= @page_object.content.blank? ? ' no-content' : '' %>">
+<%= @page_object.content %>
+</div>

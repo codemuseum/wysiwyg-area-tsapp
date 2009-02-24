@@ -1,0 +1,17 @@
+.app-wysiwyg-area {margin-top:15px; margin-bottom:25px;}
+.app-wysiwyg-area .content { line-height: 160%; }
+body.displaying-page.action-edit .app-wysiwyg-area .content.no-content {height:20px; border:1px dotted gray;}
+
+.app-wysiwyg-area .content ol,
+.app-wysiwyg-area .content ul {margin: 0px;padding: 0.2em 2.8em;}
+.app-wysiwyg-area .content ul li { list-style: disc;}
+.app-wysiwyg-area .content ol li { list-style: decimal;}
+.app-wysiwyg-area .content h2, h3, h4, h5, h6 {font-weight: bold;}
+.app-wysiwyg-area .content p {margin: 1em;}
+
+.app-wysiwyg-area .content h1 {padding-top: 1em; padding-bottom: 0.5em;}
+.app-wysiwyg-area .content h2,
+.app-wysiwyg-area .content h3,
+.app-wysiwyg-area .content h4,
+.app-wysiwyg-area .content h5,
+.app-wysiwyg-area .content h6 {padding-top: 0.6em; padding-bottom: 0.3em;}
