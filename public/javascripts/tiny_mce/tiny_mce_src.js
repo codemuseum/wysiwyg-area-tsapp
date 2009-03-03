@@ -6387,8 +6387,9 @@ tinymce.create('tinymce.ui.Toolbar:tinymce.ui.Container', {
 				tinymce.relaxedDomain = document.domain;
 
 			// Setup document domain if tinymce is loaded from other domain
-			if (!tinymce.relaxedDomain && tinymce.EditorManager.baseURI.host != lo.hostname && lo.hostname)
-				document.domain = tinymce.relaxedDomain = lo.hostname.replace(/.*\.(.+\..+)$/, '$1');
+			// This is no longer needed because the scripts already work correctly cross-domain
+      // if (!tinymce.relaxedDomain && tinymce.EditorManager.baseURI.host != lo.hostname && lo.hostname)
+      //  document.domain = tinymce.relaxedDomain = lo.hostname.replace(/.*\.(.+\..+)$/, '$1');
 
 			// Add before unload listener
 			// This was required since IE was leaking memory if you added and removed beforeunload listeners

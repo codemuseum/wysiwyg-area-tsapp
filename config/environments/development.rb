@@ -15,4 +15,4 @@ config.action_controller.perform_caching             = false
 
 # Don't care if the mailer can't send
 config.action_mailer.raise_delivery_errors = false
-config.action_controller.asset_host                  = "www.localhost.com:3013"
+config.action_controller.asset_host                  = "www.example.com:3001"

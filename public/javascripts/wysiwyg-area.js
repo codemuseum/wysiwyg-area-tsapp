@@ -21,7 +21,8 @@ var WysiwygAreaEdit = {
       skin: "o2k7",
   		skin_variant: "silver",
       theme_advanced_resize_horizontal: false,
-      inline_popups_html2js_url: '209.20.86.103/wysiwyg-area/html2.js?src=',
+      // inline_popups_html2js_url: '209.20.86.103/wysiwyg-area/html2.js?src=',
+      inline_popups_html2js_url: 'www.example.com:3001/html2.js?src=',
       authenticity_token: authToken
     });
   },
