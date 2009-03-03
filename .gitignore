@@ -15,4 +15,5 @@ config/database.yml
 config/mail_servers.yml
 index/**/*
 config/tsapp.yml
+config/s3.yml
 config/backup_fu.yml

@@ -1,5 +1,5 @@
 <% stylesheets 'wysiwyg-area-edit' %>
-<% javascripts 'tiny_mce/tiny_mce_src', 'wysiwyg-area' %>
+<% javascripts "#{controller.request.protocol}s3.amazonaws.com/tinymce-cdn/tiny_mce.js", 'wysiwyg-area' %>
 
 <div class="content">
 <% fields_for_page_object do |f| %>
