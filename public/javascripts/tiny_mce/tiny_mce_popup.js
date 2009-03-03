@@ -12,8 +12,8 @@ tinyMCEPopup = {
 			q[unescape(it[0])] = unescape(it[1]);
 		}
 
-    if (q.mce_rdomain)
-     document.domain = q.mce_rdomain;
+    // if (q.mce_rdomain) // Is this causing a problem with cross domain stuff?
+    //  document.domain = q.mce_rdomain;
 
 		// Find window & API
 		w = t.getWin();
