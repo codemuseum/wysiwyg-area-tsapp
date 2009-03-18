@@ -21,7 +21,7 @@ var WysiwygAreaEdit = {
       skin: "o2k7",
   		skin_variant: "silver",
       theme_advanced_resize_horizontal: false,
-      cdn_host: 's3.amazonaws.com/tinymce-cdn',
+      cdn_host: 'tinymce1.thrivesmart.net',
       authenticity_token: authToken
     });
   },
