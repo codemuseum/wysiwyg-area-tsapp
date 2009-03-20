@@ -1,6 +1,6 @@
 .app-wysiwyg-area {margin-top:15px; margin-bottom:25px;}
 .app-wysiwyg-area .content { line-height: 160%; }
-body.displaying-page.action-edit .app-wysiwyg-area .content.no-content {height:20px; border:1px dotted gray;}
+body.displaying-page.action-edit .app-wysiwyg-area .content.no-content {height:76px; border:1px dotted gray;background:transparent url(../images/empty-area.png) center center no-repeat;}
 
 .app-wysiwyg-area .content ol,
 .app-wysiwyg-area .content ul {margin: 0px;padding: 0.2em 2.8em;}
